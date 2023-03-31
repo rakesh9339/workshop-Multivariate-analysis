@@ -25,15 +25,15 @@ print(dd)
  #(i) Numerical & Numerical
 
 sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
-![image](https://user-images.githubusercontent.com/121115650/229035020-a55890c1-bbaf-4c59-9a4e-6105416b18ff.png)
+![image](scrt1.png)
 
 #(ii) Numerical & Categorical
 
 sns.barplot (x=dd['Duration'],y=dd['Price'])
-![image](https://user-images.githubusercontent.com/121115650/229035490-3744d2dd-cefc-4917-96db-81448a88f784.png)
+![image](scrt2.png)
 
 sns.barplot(x=dd["Arrival_Time"],y=dd["Price"],data=dd)
-![image](https://user-images.githubusercontent.com/121115650/229035632-70d61306-94b5-4480-a4a6-72f14fbc5086.png)
+![image](scrt3.png)
 
 states=dd.loc[:,["Duration","Price"]]
 
@@ -48,7 +48,7 @@ plt.xlabel=("Duration")
 plt.ylabel=("Price")
 
 plt.show()
-![image](https://user-images.githubusercontent.com/121115650/229035719-93329faf-c0bc-47b3-8f3a-446460ed6f90.png)
+![image](scrt4.png)
 
 # Multivariate Analysis
 
@@ -64,4 +64,4 @@ hm = sns.heatmap(data = data)
 
 plt.show()
 
-![image](https://user-images.githubusercontent.com/121115650/229035897-c78812ac-7868-4d1d-834f-accdaf040c64.png)
+![image](scrt5.png)
