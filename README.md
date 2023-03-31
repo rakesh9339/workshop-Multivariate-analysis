@@ -20,7 +20,7 @@ dd = pd.read_csv(io.BytesIO(uploaded['FlightInformation.csv']))
 
 print(dd)
 
-
+# output
  #  Types of Bivariate Analysis:
  #(i) Numerical & Numerical
 
