@@ -25,15 +25,15 @@ print(dd)
  #(i) Numerical & Numerical
 
 sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
-![image](scrt1.png)
+/home/sec/Downloads/Scrt1.png
 
 #(ii) Numerical & Categorical
 
 sns.barplot (x=dd['Duration'],y=dd['Price'])
-![image](scrt2.png)
+/home/sec/Downloads/scrt2.png
 
 sns.barplot(x=dd["Arrival_Time"],y=dd["Price"],data=dd)
-![image](scrt3.png)
+/home/sec/Downloads/scrt3.png
 
 states=dd.loc[:,["Duration","Price"]]
 
@@ -48,7 +48,7 @@ plt.xlabel=("Duration")
 plt.ylabel=("Price")
 
 plt.show()
-![image](scrt4.png)
+/home/sec/Downloads/scrt4.png
 
 # Multivariate Analysis
 
@@ -64,4 +64,4 @@ hm = sns.heatmap(data = data)
 
 plt.show()
 
-![image](scrt5.png)
+/home/sec/Downloads/scrt5.png
